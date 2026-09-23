@@ -1,0 +1,25 @@
+# Cadenas de conexión y credenciales de MongoDB
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.json
+
+# Respaldos y dumps de datos locales de MongoDB
+dump/
+data/db/
+*.dump
+*.bson
+*.json
+
+# Archivos de registro y logs de la base de datos
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Carpetas del sistema y de dependencias (por si usas Node.js)
+node_modules/
+.DS_Store
+Thumbs.db
